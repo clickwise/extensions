@@ -51,7 +51,18 @@
           label="&xulschoolhello.hello.label;"
           accesskey="&xulschoolhello.helloItem.accesskey;"
           oncommand="XULSchoolChrome.BrowserOverlay.sayHello(event);" />
-      </menupopup>
+      </menupopup> 
+    </menu>
+	
+	    <menu id="xulschoolhello-hello-menu-2" label="&xulschoolhello.hello.label2;"
+      accesskey="&xulschoolhello.helloMenu.accesskey;"
+      insertafter="appmenu_addons">
+      <menupopup>
+        <menuitem id="xulschoolhello-hello-menu-item-2"
+          label="&xulschoolhello.hello.label2;"
+          accesskey="&xulschoolhello.helloItem.accesskey;"
+          oncommand="XULSchoolChrome.BrowserOverlay.sayHello2(event);" />
+      </menupopup> 
     </menu>
   </vbox>
 </overlay>
