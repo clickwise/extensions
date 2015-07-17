@@ -30,17 +30,6 @@
     </menu>
   </menubar>
   
-    <menubar id="main-menubar">
-    <menu id="xulschoolhello-hello-menu" label="&xulschoolhello.hello.label2;"
-      accesskey="&xulschoolhello.helloMenu.accesskey;" insertafter="helpMenu">
-      <menupopup>
-        <menuitem id="xulschoolhello-hello-menu-item"
-          label="&xulschoolhello.hello.label2;"
-          accesskey="&xulschoolhello.helloItem.accesskey;"
-          oncommand="XULSchoolChrome.BrowserOverlay.sayHello2(event);" />
-      </menupopup>
-    </menu>
-  </menubar>
 
   <vbox id="appmenuSecondaryPane">
     <menu id="xulschoolhello-hello-menu-2" label="&xulschoolhello.hello.label;"
@@ -54,15 +43,5 @@
       </menupopup> 
     </menu>
 	
-	    <menu id="xulschoolhello-hello-menu-2" label="&xulschoolhello.hello.label2;"
-      accesskey="&xulschoolhello.helloMenu.accesskey;"
-      insertafter="appmenu_addons">
-      <menupopup>
-        <menuitem id="xulschoolhello-hello-menu-item-2"
-          label="&xulschoolhello.hello.label2;"
-          accesskey="&xulschoolhello.helloItem.accesskey;"
-          oncommand="XULSchoolChrome.BrowserOverlay.sayHello2(event);" />
-      </menupopup> 
-    </menu>
   </vbox>
 </overlay>

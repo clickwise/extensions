@@ -17,13 +17,5 @@ XULSchoolChrome.BrowserOverlay = {
     let message = stringBundle.getString("xulschoolhello.greeting.label");
 
     window.alert(message);
-  };
-    sayHello2 : function(aEvent) {
-    let stringBundle = document.getElementById("xulschoolhello-string-bundle");
-    let message = stringBundle.getString("xulschoolhello.greeting.label2");
-
-    window.alert(message);
   }
-  
-  
 };
