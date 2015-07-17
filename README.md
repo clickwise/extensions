@@ -1,1 +1,2 @@
 # extensions
+firefox extensions
